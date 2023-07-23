@@ -6,6 +6,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+ /* header section */
 header{
     width: auto;
     height: 120px;
@@ -41,34 +42,54 @@ header{
 }
 
 .nav{
-    margin-left: 1180px;
+    margin-left: 1280px;
     color: #3C354F;
     text-align: center;
     align-items: center;
     display:flex;
-    font-size: 18px;
-    font-weight: 500;
     gap: 40px;
 }
-.btn{
-    width: 200px;
-    padding-top: 17px;
-    padding-bottom: 18px;
+
+.nav-img{
+    width: 270px;
+    height: 60px; 
+    color: #3C354F; 
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
+    gap: 20px;
+}
+.nav-img .img1{
+    width: 27px;
+    height: 24px;
+    margin-top : 10px;
+    margin-left: 10px;
+    gap: 24px;
+}
+.nav-img .img2{
+    width: 20px;
+    height: 24px;
+   margin-top: 7px;
+   margin-left: 10px;
 }
 
+/* banner section */
 .section-container{
     display: flex;
 }
 
 .banner-content{
-margin-left: 460px;
+margin-left: 300px;
 }
 
 .banner-img{
-    margin-top: 50px;
-   margin-left: 800px;
+    margin-top: 20px;
+    margin-left: 900px;
 }
 
 .para1{
@@ -78,7 +99,7 @@ margin-left: 460px;
     font-size: 48px;
     font-weight: 600;
     text-transform: uppercase;
-    
+    gap: 24px;
 }
 
 .para2{
@@ -91,13 +112,14 @@ margin-left: 460px;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    gap: 24px;
 }
-.banner-content ul{
+ ul{
+    margin-top: -50px;
     color: #534C64;
     font-size: 20px;
     font-weight: 500;
-    text-transform: lowercase;
-    gap: 20px;
+    line-height: 40px;
 }
 
 .btn-1{
@@ -110,7 +132,7 @@ margin-left: 460px;
     display: inline-flex;
     padding: 21px 40px;
     align-items: flex-start;
-    gap: 10px;
+    gap: 30px;
 }
 
 .btn-2{
@@ -122,10 +144,10 @@ margin-left: 460px;
     padding: 21px 40px;
     align-items: flex-start;
     border-radius: 48px;
-    gap: 10px;
-    border-radius: 48px;
     background: #4EC5F7;
 }
+
+/* online game section */
 
 .section-img{
     width: auto;
@@ -166,14 +188,189 @@ margin-left: 460px;
     justify-content: center;
     align-items: center;
     margin-left: 200px;
-    gap: 24px;
+    gap: 30px;
 }
 
-.p{
+/* play instantly section */
+
+.section-play{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 750px;
+    justify-content: center;
+}
+
+.para-3{
+    margin-top: 300px;
+    margin-left: 200px;
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.para-4{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px; 
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.para-p{
     color: #534C64;
-    font-size: 20px;
-    font-weight: 500;
+    text-align: right;
+    padding-right: 250px;
+    font-size: 18px;
+    font-weight: 400;
     line-height: 30px;
 }
+.img-2p{
+    margin-top: 100px;
+    margin-right: 240px;
+    width: 634.833px;
+    height: 650px;
+    border-radius: 8px;
+    background: url(<path-to-image>), lightgray -7.583px 0px / 102.389% 100% no-repeat;
+}
 
+.little-img{
+    width: 318.5px;
+    height: 365.083px;
+    margin-top: -300px;
+    margin-left: -150px;
+    border-radius: 2px;
+    border: 10px solid #FFF;
+    background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+}
 
+/* img btn section */
+
+.banner-img{
+    margin-top: 200px;
+    width:auto;
+    height: 400px;
+    margin: 200px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.img-logo-1{
+    padding: 45PX;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-logo-2{
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+    display: flex;
+}
+
+/* footer section */
+
+footer{
+    margin-top: 50PX;
+    width: auto; 
+    height: 500px;
+    background: #0B0223;
+}
+
+footer .logo{
+        color: #FFF;
+        margin-top: 38px;
+        font-size: 45px;
+        font-weight: 700;
+        padding-top: 50px;
+        margin-top: 50px;
+        justify-content: center;
+}
+
+footer .logo .img-title .design{
+    color: #FFF;
+    margin-top: 38px;
+    font-size: 45px;
+    font-weight: 700;
+}
+.para{
+    width: 1250px;
+    margin-left: 780px;
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.icon{
+    width: 1250px;
+    margin-top: 40px;
+    margin-left: 1350px;
+    display: flex;
+    justify-content: space-around;
+    gap: 65px;
+    width: 70px;
+    height: 40px;
+}
+
+.text{
+    width: 1250px;
+    margin-left: 800px;
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    gap: 60px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.copy{
+    margin-left: 200px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* media query */
+
+/* media query for mobile */
+
+@media screen and (max-width: 576px) {
+    header, .logo, .img-icon, .img-title, .img-title .design, .nav, .nav-img, .nav-img .img1, .nav-img .img2 {
+      flex-direction: column;
+      margin-left: 10px;
+      gap: 20px;
+    }
+    .section-container, .banner-content, .para1, .para2, .btn-1, .btn-2{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .banner-img{
+        grid-template-columns: 1fr;
+        margin-left: 0px;
+        }
+    .section-img, .text-style, .text-style-1, .text-description, .img-view{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .section-play, .para-3, .para-4, .img-2p, .little-img{
+        flex-direction: column;
+    }
+    .banner-img, .img-logo-1, .img-logo-2{
+        flex-direction: column;
+    
+    }
+     footer .logo, footer .logo .img-title .design, .para, .icon, .text, .copy{
+        flex-direction: column;
+    }
+}
